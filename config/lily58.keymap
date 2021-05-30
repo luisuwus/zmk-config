@@ -42,8 +42,8 @@
 &bt BT_CLR &bt BT_SEL 0     &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3 &bt BT_SEL 4                 &trans    &trans    &trans   &trans      &trans    &trans
 &trans     &trans           &trans            &trans            &trans       &trans                       &trans    &trans    &trans   &trans      &trans    &trans
 &trans     &trans           &trans            &trans            &trans       &trans                       &kp LEFT  &kp DOWN  &kp UP   &kp RIGHT   &trans    &trans
-&trans     &ext_power EP_ON &ext_power EP_OFF &ext_power EP_TOG &trans       &trans    &trans   &trans    &trans    &PLUS     &MINUS   &EQUAL      &BSLH     &trans    
-                                              &trans            &trans       &trans    &trans   &trans    &trans    &DELETE   &trans
+&trans     &ext_power EP_ON &ext_power EP_OFF &ext_power EP_TOG &trans       &trans    &trans   &trans    &trans    &kp PLUS    &kp MINUS &kp EQUAL      &kp BSLH     &trans    
+                                              &trans            &trans       &trans    &trans   &trans    &trans    &kp DELETE   &trans
 			>;
 
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
